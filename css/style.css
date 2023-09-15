@@ -127,7 +127,7 @@ body {
 }
 
 .boxcolor {
-  background-color: #fcfbfc;
+  background-color:#F8F8F8;
 }
 
 .boxcolor2 {
@@ -135,7 +135,11 @@ body {
 }
 
 .boxcolor3 {
-  background-color: #05061a;
+  background-color: #B2C4EA;
+}
+
+.boxcolor4{
+  background-color: #000000;
 }
 
 p.txt-branco-preto {
