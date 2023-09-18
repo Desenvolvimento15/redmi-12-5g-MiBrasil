@@ -122,8 +122,8 @@ body {
   color: #fff;
 }
 
-.txt-azul {
-  color: #00e9fe;
+.txt-roxo {
+  color: #BCBEFF;
 }
 
 .txt-aviso{
@@ -193,12 +193,16 @@ p.txt-branco-preto {
   top: -11rem;
 }
 
-.grid-img-pad {
+.grid-icons-end {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   justify-content: center;
   flex-direction: row;
   gap: 2rem;
+  align-content: center;
+  align-items: center;
+  width: 23rem;
+  margin: 0 auto;
 }
 
 .galeria{
