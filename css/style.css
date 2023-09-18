@@ -37,7 +37,7 @@ body {
 .subtitle {
   text-align: center;
   font-size: 3.5rem;
-  font-weight: 800;
+  font-weight: 500;
   font-family: "Camphor Pro", sans-serif;
   position: relative;
   margin-bottom: 1rem;
@@ -66,7 +66,7 @@ body {
 
 .p-aviso {
   font-size: 1rem;
-  text-align: center;
+  text-align: left;
   padding: 20px;
   font-family: "Camphor Pro", sans-serif;
   position: relative;
@@ -124,6 +124,10 @@ body {
 
 .txt-azul {
   color: #00e9fe;
+}
+
+.txt-aviso{
+  color:#636363;
 }
 
 .boxcolor {
@@ -210,7 +214,7 @@ p.txt-branco-preto {
 
   .galeria{
     margin: 0 auto;  
-width: 100%;
+    width: 100%;
   }
 
   .grid-img-text {
