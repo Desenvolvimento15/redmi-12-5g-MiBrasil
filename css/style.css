@@ -185,16 +185,15 @@ p.txt-branco-preto {
 
 }
 
-.grid-pad-se-desk {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  max-width: 90rem;
+.grid-redmi-for {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
   margin: 0 auto;
-  border: 1px solid #ccc;
-
-  display: grid;
-  grid-template-columns: repeat(3, 100px);
-  grid-template-rows: 100px 100px 100px;
+  gap: 4rem;
 }
 
 .grid-redmi-two {
