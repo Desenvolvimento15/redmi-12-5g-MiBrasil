@@ -110,6 +110,19 @@ body {
   line-height: 1.2;
 }
 
+.icons-title-ia{
+  font-size: 1.5rem;
+  text-align: left;
+  font-family: "Camphor Pro", sans-serif;
+  position: relative;
+  font-weight: 500;
+  color: #5c317e;
+  margin-top: 1rem;
+  line-height: 1.2;
+
+}
+
+
 .icons-text {
   font-size: 1rem;
   text-align: center;
@@ -117,8 +130,6 @@ body {
   position: relative;
   font-weight: 400;
 }
-
-
 
 .txt-preto {
   color: #292929;
@@ -157,7 +168,6 @@ p.txt-branco-preto {
 }
 
 /********************************** Grid *************************************/
-
 
 .grid-icons{
 
