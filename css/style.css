@@ -74,7 +74,7 @@ body {
 }
 
 .icons-title {
-  font-size: 3rem;
+  font-size: 1.5rem;
   text-align: center;
   font-family: "Camphor Pro", sans-serif;
   position: relative;
@@ -151,6 +151,19 @@ p.txt-branco-preto {
 }
 
 /********************************** Grid *************************************/
+
+
+.grid-icons{
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  margin: 0 auto;
+
+}
 
 .grid-pad-se-desk {
   padding-top: 1rem;
