@@ -1,5 +1,5 @@
 $('.galeria').slick({
-    dots: true,
+    dots: false,
     arrows: false,
     infinite: false,
     slidesToShow: 1,
