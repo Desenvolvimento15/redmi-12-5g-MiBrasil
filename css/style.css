@@ -27,7 +27,6 @@ body {
   color: #292929;
 }
 
-
 .subtitle {
   text-align: center;
   font-size: 3.5rem;
@@ -191,6 +190,8 @@ p.txt-branco-preto {
   justify-content: center;
   box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
 }
+
+
 /********************************** Grid *************************************/
 
 .grid-icons{
@@ -306,7 +307,6 @@ p.txt-branco-preto {
   display: none;
 }
 
-
 /************************************** Mobile ************************************************/
 
 @media only screen and (min-width: 0px) and (max-width: 920px) {
@@ -316,9 +316,26 @@ p.txt-branco-preto {
     display: none;
   }
 
+  .img-mobi{
+    display: block;
+  }
+
+  .img-desk2{
+    display: none;
+  }
+
+  .img-mobi2{
+    display: block;
+  }
+  
+
   .box-img{
     top: 0rem;
     left: 0rem;
+    width: 20rem;
+    display: block;
+    margin: 0 auto;
+    margin-top: 3rem;
   }
 
   .box-dark{
@@ -341,6 +358,9 @@ p.txt-branco-preto {
     justify-content: center;
     box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
   }
+
+/**********************************************************************************/
+
 
   .grid-redmi-menu{
     display: none;
@@ -379,7 +399,6 @@ p.txt-branco-preto {
   gap: 2rem;
   }
 
-
   .grid-icons-end {
   gap: 3rem;
   margin: 0 auto;
@@ -402,6 +421,7 @@ p.txt-branco-preto {
     height: 20rem;
 }
 
+/**********************************************************************************/
 
   .img-fluid-mob {
   width: 100%;
@@ -410,22 +430,7 @@ p.txt-branco-preto {
   p.txt-branco-preto {
   color: #05061a;
   }
-  .title {
-  text-align: center;
-  font-size: 2rem;
-  font-weight: 500;
-  font-family: "Camphor Pro", sans-serif;
-  position: relative;
-  line-height: 1;
-  }
-
-  .title-2 {
-  text-align: center;
-  font-weight: bold;
-  font-size: 1.8rem;
-  margin: 2rem;
-  }
-
+ 
   .subtitle {
   text-align: center;
   font-size: 2rem;
@@ -489,26 +494,6 @@ p.txt-branco-preto {
   color: #7f7f7f;
   }
 
-  .div02 {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  margin-bottom: 0.625rem;
-  margin-top: 0.625rem;
-  min-height: 11.25rem;
-  width: 20.416667rem;
-  }
-
-  .div03 {
-  align-items: flex-start;
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  min-height: 8.333333rem;
-  width: 20.395833rem;
-  }
 
 
 
