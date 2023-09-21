@@ -192,7 +192,6 @@ p.txt-branco-preto {
 }
 
 
-
 .box-img{
   top: 28rem;
   left: 5rem;
@@ -263,6 +262,8 @@ p.txt-branco-preto {
   width: 6rem;
 }
 /********************************** Grid *************************************/
+
+
 
 .grid-icons{
 
@@ -351,15 +352,7 @@ p.txt-branco-preto {
   padding: 2rem;
 }
 
-.grid-icons {
-  gap: 1rem;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-content: center;
-  justify-content: center;
-  align-items: center;
-}
+
 
 .galeria{
   width: 56rem;
