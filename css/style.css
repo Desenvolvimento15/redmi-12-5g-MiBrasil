@@ -16,20 +16,9 @@ body {
   height: auto;
 }
 
-.title {
-  text-align: left;
-  font-size: 4.5rem;
-  font-weight: 500;
-  font-family: "Camphor Pro", sans-serif;
-  position: relative;
-  line-height: 1;
-  overflow-wrap: break-word;
-  color: #292929;
-}
-
 .subtitle {
   text-align: center;
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 600;
   font-family: "Camphor Pro", sans-serif;
   position: relative;
@@ -38,10 +27,10 @@ body {
   line-height: 1.1;
 }
 
-.subtitle-left {
+.sub-title {
   text-align: left;
-  font-size: 3rem;
-  font-weight: 600;
+  font-size: 2rem;
+  font-weight: 400;
   font-family: "Camphor Pro", sans-serif;
   position: relative;
   margin-bottom: 1rem;
@@ -59,10 +48,10 @@ body {
   left: 1rem;
 }
 
-.sub-title {
-  text-align: left;
-  font-size: 2.3rem;
-  font-weight: 400;
+.subtitle-left {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
   font-family: "Camphor Pro", sans-serif;
   position: relative;
   margin-bottom: 1rem;
@@ -70,8 +59,8 @@ body {
 }
 
 .p-left {
-  font-size: 1.9rem;
-  text-align: left;
+  font-size: 1.4rem;
+  text-align: center;
   font-family: "Camphor Pro", sans-serif;
   position: relative;
   line-height: 1.3;
@@ -79,7 +68,7 @@ body {
 }
 
 .p-center {
-  font-size: 1.9rem;
+  font-size: 1.4rem;
   text-align: center;
   padding: 20px;
   font-family: "Camphor Pro", sans-serif;
@@ -130,10 +119,8 @@ body {
   color: #5c317e;
   padding-top: 1rem;
   line-height: 1.2;
-  
 
 }
-
 
 .icons-text {
   font-size: 1.3rem;
@@ -143,7 +130,6 @@ body {
   font-weight: 400;
   line-height: 1.0;
 }
-
 
 .icons-text-2 {
   font-size: 1.2rem;
@@ -205,6 +191,7 @@ p.txt-branco-preto {
   display: flex; display: flex; 
   flex-direction: column; 
   justify-content: center;
+  
 }
 
 .box-light{
@@ -255,7 +242,6 @@ p.txt-branco-preto {
   font-weight: 700;
   line-height: 1.3;
   margin-top: 1rem;
-
 }
 
 .icons-size{
@@ -303,8 +289,7 @@ p.txt-branco-preto {
 .grid-redmi-two-left {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
-  max-width: 27rem;
+  justify-content: center;
   gap: 2rem;
   align-content: center;
   flex-direction: row;
@@ -375,7 +360,7 @@ p.txt-branco-preto {
 }
 
 .desk2{
-  padding: 15rem;
+  padding: 17rem;
 }
 
 .img-logo{
