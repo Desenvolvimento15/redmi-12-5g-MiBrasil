@@ -98,7 +98,6 @@ body {
   line-height: 1.2;
 }
 
-
 .icons-title-03 {
   font-size:1.9rem;
   text-align: left;
@@ -177,7 +176,6 @@ p.txt-branco-preto {
   color: #fff;
 }
 
-
 .box-img{
   top: 28rem;
   left: 5rem;
@@ -191,7 +189,6 @@ p.txt-branco-preto {
   display: flex; display: flex; 
   flex-direction: column; 
   justify-content: center;
-  
 }
 
 .box-light{
@@ -206,7 +203,6 @@ p.txt-branco-preto {
 }
 
 .icons-img-text{
-
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -222,7 +218,6 @@ p.txt-branco-preto {
   flex-wrap: nowrap;
   margin-bottom: 1.3rem;
   align-items: center;
-
 }
 
 .icons-text-3{ 
@@ -251,18 +246,15 @@ p.txt-branco-preto {
 /********************************** Grid *************************************/
 
 .grid-icons{
-
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-content: center;
   justify-content: center;
   align-items: center;
-
   margin: 0 auto;
   gap: 1rem;
   width: 55rem;
   height: 17rem;
-
 }
 
 .grid-redmi-for {
@@ -336,7 +328,6 @@ p.txt-branco-preto {
   padding: 2rem;
 }
 
-
 .galeria{
   width: 56rem;
   margin: 0 auto;
@@ -366,6 +357,8 @@ p.txt-branco-preto {
 .img-logo{
   width: 21rem;
 }
+
+
 /************************************** Mobile ************************************************/
 
 @media only screen and (min-width: 0px) and (max-width: 920px) {
@@ -432,7 +425,6 @@ p.txt-branco-preto {
   }
 
 /**********************************************************************************/
-
 
   .grid-redmi-menu{
     display: none;
