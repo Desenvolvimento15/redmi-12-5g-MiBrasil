@@ -221,12 +221,12 @@ p.txt-branco-preto {
 .icons-img-text{
 
   display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 1.3rem;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.3rem;
 }
 
 .icons-img-text-2{
@@ -261,9 +261,8 @@ p.txt-branco-preto {
 .icons-size{
   width: 6rem;
 }
+
 /********************************** Grid *************************************/
-
-
 
 .grid-icons{
 
@@ -351,7 +350,6 @@ p.txt-branco-preto {
   width: 32rem;
   padding: 2rem;
 }
-
 
 
 .galeria{
