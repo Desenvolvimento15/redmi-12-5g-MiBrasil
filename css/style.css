@@ -217,7 +217,7 @@
     width: 13rem; 
     height: 7rem; 
     border-radius: 1rem; 
-    display: flex; display: flex; 
+    display: flex; 
     flex-direction: column; 
     justify-content: center;
     }
@@ -374,9 +374,20 @@
     justify-content: center;
     }
 
-    .img-logo{
-    width: 20rem;
+    .img-fluid {
+      width: 100%;
     }
+
+    .icons-size {
+      width: 4.5rem;
+      margin-bottom: 1rem;
+
+  } 
+  .img-logo {
+    width: 18rem;
+    margin: 0 auto;
+    display: block;
+}
 
     .desk2{
     display: none;
@@ -408,9 +419,7 @@
     width: 11rem; 
     height: 7rem; 
     border-radius: 1rem; 
-    display: flex; display: flex; 
-    flex-direction: column; 
-    justify-content: center;
+
     }
 
     .box-light{
@@ -469,9 +478,19 @@
     display: grid;
     justify-items: center;
     grid-template-columns: 1fr 1fr;
-    width: 19rem;
+    width: 25rem;
     padding: 2rem;
     }
+
+    .grid-icons-end-02 {
+      gap: 3rem;
+      margin: 0 auto;
+      display: grid;
+      justify-items: center;
+      grid-template-columns: 1fr 1fr;
+      width: 25rem;
+      padding: 2rem;
+      }
 
     .grid-icons {
     gap: 1rem;
@@ -498,7 +517,7 @@
 
     .subtitle {
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 600;
     font-family: "Camphor Pro", sans-serif;
     position: relative;
@@ -525,7 +544,7 @@
     }
 
     .p-center {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     text-align: center;
     padding: 20px;
     font-family: "Camphor Pro", sans-serif;
@@ -534,7 +553,7 @@
     }
 
     .p-left {
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     text-align: center;
     font-family: "Camphor Pro", sans-serif;
     position: relative;
@@ -569,18 +588,31 @@
     margin-top: 1rem;
     }
 
-    .icons-tex {
+    .icons-text {
     font-size: 1rem;
     text-align: center;
     font-family: "Camphor Pro", sans-serif;
     position: relative;
-    font-weight: 400;
-    color: #7f7f7f;
+    font-weight: 500;
+    line-height: 1;
+    }
+
+    .icons-text-2 {
+    font-size: 1.2rem;
+    text-align: center;
+    font-family: "Camphor Pro", sans-serif;
+    position: relative;
+    font-weight: 700;
+    line-height: 1.0;
+    padding-left: 1rem;
     }
 
 
+    .icons-img{
+    width: 5rem;
+    }
 
 
-
+    
 
 }
