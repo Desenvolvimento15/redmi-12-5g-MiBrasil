@@ -361,17 +361,17 @@
     }
 
 
-    .grid-icons-end-02{
 
-      gap: 3rem;
-      margin: 0 auto;
-      display: grid;
-      justify-items: center;
-      grid-template-columns: 1fr 1fr;
-      width: 32rem;
-      padding: 2rem;
-
+      .grid-icons-end-02 {
+        gap: 3rem;
+        margin: 0 auto;
+        display: grid;
+        justify-items: center;
+        grid-template-columns: 1fr 1fr;
+        width: 25rem;
+        padding: 2rem;
     }
+    
 
     /***************************************************************/
     .img-mobi{
